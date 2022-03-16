@@ -1,0 +1,121 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Avenir Next";
+  background-color: #21d190;
+  background-image: linear-gradient(315deg, #21d190 0%, #d65bca 74%);
+}
+li {
+  list-style: none;
+}
+/* Ketik code Anda dibawah */
+.header {
+  background-color: #c7e9fb;
+  background-image: linear-gradient(315deg, #c7e9fb 0%, #e61d8c 74%);
+  color: #fff;
+  height: 90px;
+}
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+.header-list {
+  float: left;
+}
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+.main {
+  padding: 100px 80px;
+}
+.copy-container h1 {
+  font-size: 100px;
+}
+.copy-container h2 {
+  font-size: 60px;
+}
+.contents {
+  height: 500px;
+  margin-top: 100px;
+}
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+.contact-form {
+  padding-top: 100px;
+}
+input, textarea {
+  width: 400px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border: 1px solid #ff9cd3;
+  padding: 20px;
+  font-size: 18px;
+}
+.contact-submit {
+  color: #4e5f69;
+  background-color: #d65bca;
+}
+.footer {
+  background-color: #21d190;
+  background-image: linear-gradient(315deg, #21d190 0%, #d65bca 74%);
+  color: #fff;
+  height: 100px;
+  padding: 40px;
+}
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+.footer-list {
+  float: right;
+  
+}
+.footer-list li {
+  padding-bottom: 20px;
+}
+.kotak {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(226, 43, 150);
+  animation: animasikotak 2s infinite;
+  margin-top: 20px
+}
+@keyframes animasikotak {
+  from {
+    width: 20px;
+  }
+  to {
+    width: 1050px
+  }
+}
+@media (max-width: 768px) {
+  .copy-container h1 {
+    color:rgb(144, 43, 226);
+  }
+}
+@media (max-width: 480px) {
+  .copy-container h1 {
+    color:rgb(43, 55, 226);
+    font-size: 50px;
+  }
+}
